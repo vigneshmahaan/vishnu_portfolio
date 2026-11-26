@@ -42,7 +42,7 @@ export function Navbar() {
               <path d="M8.5 9.5L15 22.5H17L23.5 9.5H20.4L16 18.8L11.6 9.5H8.5Z" fill="#efefef" />
               <rect x="8.5" y="24.5" width="15" height="2" fill="#b11226" />
             </svg>
-            <span>{PROFILE.shortName}</span>
+            <span>{PROFILE.name}</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-5" aria-label="Primary">
