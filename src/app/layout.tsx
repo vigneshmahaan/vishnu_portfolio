@@ -44,6 +44,7 @@ export default function RootLayout({
       data-buttons="solid"
       data-motion=""
       className={`${GeistSans.variable} ${GeistMono.variable} dark`}
+      suppressHydrationWarning
     >
       <head>
         <meta name="site-kind" content="software" />
@@ -54,7 +55,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/moments/word-highlight/moment.css" />
         {/* eslint-enable @next/next/no-css-tags */}
       </head>
-      <body className="min-h-screen antialiased">
+      <body className="min-h-screen antialiased" suppressHydrationWarning>
         <SkillRuntime />
         {children}
       </body>

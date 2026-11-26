@@ -1,4 +1,5 @@
 import { ConstellationCanvas } from "@/components/ConstellationCanvas";
+import { CursorEffect } from "@/components/CursorEffect";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { StatementSection } from "@/components/StatementSection";
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <>
       <ConstellationCanvas />
+      <CursorEffect />
       <Navbar />
       <main id="top" className="relative z-10">
         <HeroSection />
