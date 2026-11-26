@@ -1,0 +1,27 @@
+{
+  "palettes": [
+    "black-crimson",
+    "black-crimson"
+  ],
+  "types": [
+    "geist",
+    "archivo"
+  ],
+  "dealt": [
+    "outfit",
+    "geist",
+    "funnel"
+  ],
+  "moments": [
+    {
+      "id": "liquid-hover",
+      "at": "2026-11-26T10:32:27.101Z",
+      "seed": "adfb97fd"
+    },
+    {
+      "id": "word-highlight",
+      "at": "2026-11-26T10:32:27.101Z",
+      "seed": "adfb97fd"
+    }
+  ]
+}
